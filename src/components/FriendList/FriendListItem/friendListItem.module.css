@@ -1,0 +1,37 @@
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  align-items: center;
+  box-shadow: 0px 1px 1px rgba(202, 7, 228, 0.12),
+    0px 4px 4px rgba(188, 14, 231, 0.507), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  padding: 5px 0;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.status {
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.offline {
+  background-color: rgb(255, 3, 54);
+}
+
+.online {
+  background-color: rgb(32, 206, 32);
+}
+
+.name {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}

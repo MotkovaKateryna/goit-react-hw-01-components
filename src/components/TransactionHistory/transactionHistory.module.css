@@ -1,0 +1,37 @@
+.transactionHistory {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(104, 60, 224, 0.267);
+  max-width: 700px;
+}
+
+th {
+  width: 300px;
+  height: 30px;
+  background-color: rgba(235, 16, 255, 0.5);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+td {
+  text-align: center;
+  height: 30px;
+  color: rgb(19, 18, 18);
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+tr {
+  height: 30px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(255, 228, 196, 0.425);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(235, 16, 255, 0.3);
+}
